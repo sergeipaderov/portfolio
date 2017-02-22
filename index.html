@@ -1,102 +1,144 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru-RU">
 <head>
 	<meta charset="UTF-8">
 	<title>Обо мне</title>
-</head>
+	<meta http-equiv="x-ua-compatible" conent="ie=edge">
+	<meta name="viewport" content="960">
+
+	<!-- styles -->
+	<link rel="stylesheet" href="css/layout/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/layout/adjustment.css">
+	<link rel="stylesheet" href="css/layout/fonts.css">
+	<link rel="stylesheet" href="css/layout/font-awesome.css">
+
+
+	<link rel="stylesheet" href="css/sections/header.css">
+	<link rel="stylesheet" href="css/sections/content.css">
+	<link rel="stylesheet" href="css/sections/nav.css">
+	<link rel="stylesheet" href="css/sections/about.css">
+	<link rel="stylesheet" href="css/sections/footer.css">
+
+
+	</head>
 <body>
 	<div class="wrapper">
+		<div class="maincontent">
 
 	<!-- Header -->
 
 		<header class="header">
 			<div class="container clearfix">
-				<div class="header left">
+				<div class="header__left">
+
+					<!-- user -->
+
 					<div class="user">
-						<div class="user pic">
-							<img src="img/content/2_about_pic_1.jpg" class="user photo" alt="user photo">
+						<div class="user__avatar">
+							<img src="img/content/2_about_pic_1.jpg" class="user__avatar-pic" alt="user photo">
 						</div>
-						<div class="user name">
+						<div class="user__name">
 							Константин Константинов
 						</div>
 					</div>
+
 				</div>
-				<div class="contacts">
-					<a href="#" class="my contacts">Мои контакты</a>
+				<div class="header__right">
+
+					<!-- contacts -->
+
+						<a href="" class="contacts">Мои контакты</a>
+
 				</div>
 			</div>
 		</header>
 
 		<!-- Content -->
 
-		<section class="header right">
+		<section class="content">
 			<div class="container clearfix">
-				<aside class="info">
-					<nav class="info nav">
-						<ul class="info nav list">
-							<li class="info nav list item">
-								<a href="#" class="about me">Обо мне</a>
+
+				<!-- sidebar -->
+				<aside class="sidebar">
+					<nav class="nav">
+						<ul class="nav__list">
+							<li class="nav__item nav__item_active">
+								<a href="index.html" class="nav__link">
+									<i class="fa fa-user-secret nav__link-icon"></i>
+									<span class="nav__link-text nav__text-about">Обо мне</span>
+								</a>
 							</li>
-							<li class="info nav list item">
-								<a href="#" class="career">Карьерный путь</a>
+							<li class="nav__item">
+								<a href="career.html" class="nav__link">
+									<i class="fa fa-rocket nav__link-icon"></i>
+									<span class="nav__link-text nav__text-career">Карьерный путь</span>
+								</a>
 							</li>
-							<li class="info nav list item">
-								<a href="#" class="portfolio">Портфолио</a>
+							<li class="nav__item">
+								<a href="#" class="nav__link">
+									<i class="fa fa-briefcase nav__link-icon"></i>
+									<span class="nav__link-text nav__text-portfolio">Портфолио</span>
+								</a>
 							</li>
 						</ul>
 					</nav>
 				</aside>
-				<main class="main">
-					<div class="container clearfix">
-						<div class="about left">
-							<div class="about pic">
-								<img src="img/content/ava-big.jpg" class="about photo" alt="my photo">
+
+				<!-- page stuff -->
+				<main class="stuff">
+					<div class="about clearfix">
+						<div class="about__left">
+							<div class="about__pic">
+								<img src="img/content/ava-big.jpg" class="about__pic-item" alt="my photo">
 							</div>
 						</div>
-						<div class="about right">
-							<div class="about title">
-								<h1 class="about me">Обо мне</h1>
-							</div>
-							<div class="about text">
+						<div class="about__right">
+
+								<h1 class="content-title">Обо мне</h1>
+								<div class="about__text text-block">
 								<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Пояс сих щеке ее. Первую свое одна которой имени они.</p>
 								<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Взгляд ручеек диких пустился первую. Использовало текст предупреждал дороге запятых.</p>
 								<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Заглавных, строчка. Силуэт деревни маленький алфавит маленькая предложения рыбного страну.</p>
-							</div>
-							<div>
-								<div class="about download">
-									<a href="#" class="about download link">Скачать резюме</a>
 								</div>
+
+							<div class="about__download">
+									<a href="#" class="btn" download>
+										<i class="fa fa-download btn__icon"></i>
+										<span class="btn__text">Скачать резюме</span>
+									</a>
 							</div>
 						</div>
 					</div>
 				</main>
 			</div>
 		</section>
+	</div>
+	</div>
 
 		<!-- Footer -->
 
 		<footer class="footer">
 			<div class="container clearfix">
-				<div class="footer left">
+				<div class="footer__left">
 					<div class="copyright">
 					&#169; Дизайн сайта был разработан в школе LoftSchool
 					</div>
 				</div>
-				<div class="footer right">
-					<ul class="footer list">
-						<li class="footer list item">
-							<a href="#"></a>
+				<div class="footer__right">
+					<ul class="socials">
+						<li class="socials__item">
+							<a href="#" class="socials__link socials__link_fb"></a>
 						</li>
-						<li class="footer list item">
-							<a href="#"></a>
+						<li class="socials__item">
+							<a href="#" class="socials__link socials__link_vk"></a>
 						</li>
-						<li class="footer list item">
-							<a href="#"></a>
+						<li class="socials__item">
+							<a href="#" class="socials__link socials__link_tw"></a>
 						</li>
 					</ul>
 				</div>
 			</div>
 		</footer>
-	</div>
 </body>
 </html>

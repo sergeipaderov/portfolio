@@ -1,0 +1,53 @@
+.sidebar, .stuff {
+  float: left;
+}
+
+.sidebar {
+  width: 230px;
+}
+
+.stuff {
+  margin-left: 20px;
+  width: 700px;
+}
+
+.content-title {
+  font-weight: 500;
+  font-size: 35px;
+  color: #414141;
+  margin-bottom: 0px;
+  margin-left: 19px;
+}
+
+h1.content__title_career {
+  margin-left: 0;
+  margin-bottom: 16px;
+  padding-bottom: 2px;
+
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 17px 8px 21px;
+  border: 2px solid #e85f61;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #e85f61;
+  text-decoration: none;
+  margin-left: 0;
+}
+
+.btn__icon .btn__text{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.btn__text {
+  margin-left: 8px;
+}
+
+.btn:hover {
+  background: #e85f61;
+  color: #fff
+}
