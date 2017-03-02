@@ -1,0 +1,151 @@
+@media screen and (max-width: 769px) {
+  .html, body {
+    font-size: 16px;
+  }
+
+  .container {
+    width: 480px;
+    margin: 0 auto;
+}
+
+  .header__left {
+    width: 70%;
+  }
+
+  .header__right {
+    width: 30%;
+    padding-top: 20px;
+    position: relative;
+  }
+
+  .header__right_contacts {
+    float: left;
+    margin-left: 90px;
+  }
+
+  .contacts {
+    background: url(../img/icons/phone.png) center center no-repeat;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    font-size: 0;
+    vertical-align: top;
+    border: none;
+    position: absolute;
+    margin-left: 70%;
+  }
+
+  .header__right_contacts:hover .contacts__menu {
+    top: 50px;
+    left: -15%;
+  }
+
+  .nav__list {
+    text-align: center;
+  }
+
+  .nav__link-text {
+    margin-left: 5px;
+  }
+
+  .stuff {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .content-title {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .about__left, .about__right {
+    float: none;
+    width: 100%;
+  }
+
+  .text-block {
+    margin-bottom: 13px;
+    margin: 0;
+    padding: 0 20px 0 0;
+  }
+
+  p {
+    margin-top: 0;
+    margin-bottom: 6px;
+  }
+
+  .text-block p:first-child {
+    margin-top: 0;
+  }
+
+
+  .about__download {
+    text-align: center;
+  }
+
+  .career__left {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .career__left, .career__right {
+    width: 100%;
+    float: none;
+  }
+
+  .career__pic {
+    display: inline-block;
+  }
+
+  .career__right {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .career__item {
+    padding: 0;
+  }
+
+  .career__block {
+    display: block;
+    width: 100%;
+    &:after, &:before {
+      display: none;
+    }
+}
+
+    .career__title {
+      font-size: 18px;
+    }
+
+    .career__occupation, .career__time {
+      font-size: 16px;
+    }
+
+    .career__year {
+      display: none;
+    }
+
+  .portfolio__item {
+    width: calc(100%/2 - 20px);
+  }
+
+  .partfolio__pic-img {
+    display: none;
+  }
+
+  .footer {
+    height: 95px;
+    margin-top: -95px;
+  }
+
+  .wrapper:after {
+    height: 95px;
+  }
+
+  .footer__left, .footer__right {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+}

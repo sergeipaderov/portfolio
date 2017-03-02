@@ -1,0 +1,77 @@
+@media screen and (max-width: 480px) {
+  .container {
+    width: 95%;
+}
+
+.html, body {
+  font-size: 15px;
+}
+
+  .header__left {
+    width: 80%;
+  }
+
+  .header__right {
+    width: 20%;
+  }
+
+  .user__name {
+    max-width: 150px;
+    font-size: 14px;
+    margin-left: 14px;
+  }
+
+  .header__right_contacts {
+    float: left;
+  }
+
+  .contacts {
+    margin-left: 0;
+  }
+
+  .nav__item {
+    margin-right: 10px;
+  }
+
+  .nav__link {
+    font-style: 14px;
+  }
+
+  .nav__link-icon {
+    display: none;
+  }
+
+  .nav__link-text {
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: 400;
+  }
+
+  .about__pic {
+    width: 140px;
+    height: 140px;
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+  }
+
+  .portfolio__list {
+    margin-left: 0;
+  }
+
+  .portfolio__item {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .footer__left {
+    padding-top: 12px;
+  }
+
+  .footer__right {
+    padding-top: 5px;
+  }
+}

@@ -1,0 +1,92 @@
+.main-page {
+  padding: 0;
+  background-image: url('../img/bg/geometry2.png');
+}
+
+.main-content {
+  display: block;
+  min-height: 250px;
+  min-width: 300px;
+  box-sizing: border-box;
+}
+
+.bg {
+  position: absolute;
+    width: 300px;
+    height: 232px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    top: 50%;
+    left: 50%;
+    -webkit-animation-name: bounceInDown;
+    animation-name: bounceInDown;
+    -webkit-animation-duration: 1.75s;
+    animation-duration: 1.75s;
+    -webkit-transform: translate(-50%, -55%);
+    -ms-transform: translate(-50%, -55%);
+    transform: translate(-50%, -55%);
+}
+
+.bg__avatar-wrap {
+    -webkit-transform: translate(0, -70px);
+    -ms-transform: translate(0, -70px);
+    transform: translate(0, -70px);
+    overflow: hidden;
+}
+
+.bg__avatar {
+    width: 140px;
+    height: 140px;
+    border: 2px solid #cacaca;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 15px;
+}
+
+.bg__avatar-img {
+    border: 0;
+    width: 100%;
+}
+
+.bg__avatar-text {
+    display: inline-block;
+    text-align: center;
+    color: #414141;
+    font-family: 'fira';
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 1px;
+    word-spacing: 200px;
+}
+
+.bg__button {
+  position: absolute;
+  width: 300px;
+  bottom: 0;
+  text-align: center;
+  background-color: #33c1e3;
+  padding: 19px 81px;
+  border-radius: 0 0 10px 10px;
+  box-sizing: border-box;
+}
+
+.bg__button-link {
+    width: 138px;
+    height: 40px;
+    display: inline-block;
+    padding: 10px 0 11px;
+    font-size: 14px;
+    font-family: 'fira';
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    line-height: 18px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    vertical-align: middle;
+    box-sizing: border-box;
+}

@@ -1,0 +1,133 @@
+.header {
+  background: #fff;
+  box-shadow: 0 1px 3px 0 rgba(00, 00, 00, .2);
+  height: 78px;
+  margin-bottom: 25px;
+}
+
+.header__left, .header__right {
+    width: 50%;
+}
+
+.header__left {
+  float: left;
+
+  padding-top: 10px;
+  padding-bottom: 1px;
+}
+
+.header__right {
+  float: right;
+  text-align: right;
+  padding-top: 30px;
+}
+
+.user__avatar {
+  border: 1px solid #bebebe;
+  border-radius: 50%;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.user__avatar-pic {
+  display: block;
+}
+
+.user__name {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 13px;
+  max-width: 235px;
+  margin-top: 4px;
+}
+
+.header__right_contacts {
+  position: relative;
+  display: inline-block;
+}
+
+.contacts {
+  font-weight: 600;
+  font-size: 18px;
+  color: #33c1e3;
+  text-decoration: none;
+  padding-bottom: 0px;
+  border-bottom: 1px dashed #33c1e3;
+  margin-right: 9px;
+}
+
+.contacts:hover {
+  color: #e85f61;
+  border-bottom: 1px dashed #e85f61;
+}
+
+.contacts__menu {
+    position: absolute;
+    padding: 20px 15px;
+    background-color: #FFF;
+    width: 190px;
+    left: -9999px;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: lighter;
+    z-index: 10;
+  }
+
+  .contacts__menu:after {
+    position: absolute;
+    content: "";
+    top: -9px;
+    left: 45%;
+    width: 0;
+  	height: 0;
+  	border-left: 10px solid transparent;
+  	border-right: 10px solid transparent;
+  	border-bottom: 10px solid #FFF;
+  }
+
+  .contacts__menu:before {
+    position: absolute;
+    content: "";
+    top: -12px;
+    left: 44%;
+    width: 0;
+  	height: 0;
+  	border-left: 12px solid transparent;
+  	border-right: 12px solid transparent;
+  	border-bottom: 12px solid #dedede;
+  }
+
+  .header__right_contacts:hover .contacts__menu {
+    top: 40px;
+    left: -45%;
+  }
+
+  .contacts__list:before {
+    content: "";
+    display: block;
+    height: 30px;
+    left: 0;
+    right: 0;
+    top: -29px;
+    position: absolute;
+  }
+
+  .fa-envelope-o, .fa-phone, .fa-skype {
+    color: #35c1dc;
+    margin-right: 14px;
+  }
+
+
+  .contacts__list_link {
+    text-decoration: none;
+    font-family: 'fira', Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.42;
+    color:#646464;
+    -webkit-font-smoothing: antialiased;
+  }
