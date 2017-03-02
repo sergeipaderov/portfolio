@@ -13,19 +13,23 @@
   </head>
   <body class="main-page">
     <div class="wrapper">
-      <main class="main-content">
+      <main class="main-content wrapper_hello">
         <div class="bg">
+
           <div class="bg__avatar-wrap">
-            <div class="bg__avatar"><img src="img/content/ava-big.jpg" alt="foto" class="bg__avatar-img"></div>
+            <div class="bg__avatar">
+              <img src="img/content/ava-big.jpg" alt="foto" class="bg__avatar-img">
+            </div>
             <div class="bg__avatar-text">Константин Константинов</div>
           </div>
           <div class="bg__button"><a href="about.html" class="bg__button-link">Перейти на сайт</a></div>
-        </div>
+
+      </div>
       </main>
     </div>
     <script>
        window.onload = function () {
-           document.querySelector('.auth').classList.add('bounceIn');
+           document.querySelector('.bg').classList.add('bounce');
        };
    </script>
   </body>
