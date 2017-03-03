@@ -15,9 +15,18 @@
 }
 
 .bg {
-    position: absolute;
+  display: inline-block;
     width: 300px;
-    height: 232px;
+    vertical-align: middle;
+    font-size: 21px;
+    background-color: #fff;
+    position: relative;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,.3);
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.3);
+  /*position: absolute;
+    width: 300px;
+    //height: 232px;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
@@ -25,11 +34,11 @@
     left: 50%;
     -webkit-animation-name: bounce;
     animation-name: bounce;
-    -webkit-transform: translate(-50%, -55%);
+    /*-webkit-transform: translate(-50%, -55%);
     -ms-transform: translate(-50%, -55%);
     transform: translate(-50%, -55%);
 	  display: inline-block;
-	  opacity: 0;
+	  opacity: 0;*/
 
 	 &.bounce {
 		opacity: 1;
@@ -71,10 +80,11 @@
 }
 
 .bg__avatar-wrap {
-    -webkit-transform: translate(0, -70px);
+    /*-webkit-transform: translate(0, -70px);
     -ms-transform: translate(0, -70px);
-    transform: translate(0, -70px);
+    transform: translate(0, -70px);*/
     overflow: hidden;
+
 }
 
 .bg__avatar {
@@ -104,7 +114,7 @@
 }
 
 .bg__button {
-  position: absolute;
+  //position: absolute;
   width: 300px;
   bottom: 0;
   text-align: center;
